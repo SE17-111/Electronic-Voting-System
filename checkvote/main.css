@@ -1,0 +1,158 @@
+*{
+	padding: 0px;
+	margin:0;
+}
+body
+{
+	background:#f6f6f6;
+	background:linear-gradient(to bottom,#f5f6f6 0%,#c4c4c4 100%)fixed;
+	border-top: 3px inset #111;
+}
+
+#wrapper
+{
+	 width: 100%;
+	 display: -webkit-box;
+	 -webkit-box-pack:center;
+	 -webkit-box-orient:horizontal;
+	 padding-top:60px; 
+}
+
+#header
+{
+	padding-top: 40px;
+	color:#069;
+	font-size:33px;
+	text-shadow: rgba(0,0,0,0.4) 2px 2px 5px;
+	font-family: sans-serif;
+	font-family: 'Tangerine',Serif;
+	font-weight: 900;
+	text-align: center; 
+}
+.text
+{
+	text-align: center;
+	font-size: 18px;
+}
+.box
+{
+	margin-right: 7px;
+	height: 200px;
+	width: 200px;
+	border: 5px solid #FFF;
+	border-radius: 100px;
+	overflow: hidden;
+	box-shadow: rgba(0,0,0,0.5) 8px 8px 8px;
+}
+.box.img
+{
+	border-radius:100px; 	
+}
+.babar
+{
+	width: 200px;
+	height: 105px;
+	background:#000;
+	text-align: center;
+	border-radius: 100px;
+	padding: 95px 0 0 0;
+	color: white;
+}
+
+/*
+div.effect1 div
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 700ms;
+	color: white;
+}
+
+div.effect1 div:hover
+{
+	opacity: 0.8;
+}
+
+div.effect2 img
+{
+	position: absolute;
+	top: 0;
+	left:0;
+	transition: margin-left 800ms;
+	color: white;
+}
+
+div.effect2:hover img
+{
+	margin-left: 200px;
+}
+
+div.effect3 div
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: -200px;
+	transition: margin-left 800ms;
+	opacity: 0.8;
+	color: white;
+}
+div.effect3:hover div
+{
+margin-left: 0;
+}
+
+div.effect4 img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+div.effect4 div
+{
+	opacity: 0.8;
+	transform: scale(0);
+	transition-duration:500ms;
+	color: white;
+
+}
+
+div.effect4:hover div
+{
+	transform: scale(1); 
+}
+
+div.effect5 img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	transform: scale(1);
+	transition-duration:500ms;
+	color: white;
+
+}
+
+div.effect5:hover img
+{
+	transform: scale(0); 
+}
+div.effect6 img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	transition-duration: 1200ms;
+}
+
+div.effect6:hover img
+{
+	box-shadow: none;
+	transform: rotate(360deg);
+}
+*/

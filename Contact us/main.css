@@ -1,0 +1,145 @@
+body
+{
+	background-color: #f6f6f6; 
+}
+/*Navigation bar*/
+
+ul
+{
+	border-radius: 10px; 
+	padding: 0;
+	margin: 0;
+	background-color: #333;
+	list-style-type: none;
+	overflow: hidden;
+}
+li a
+{
+	margin-left:25px; 
+	display: block;
+	color: white;
+	padding:18px  25px;
+	text-decoration: none;
+}
+li
+{
+ float: left;
+}
+li a:hover
+{
+	border-radius: 10px 8px 5px;
+	background-color: red;
+}
+
+/* This is the Dropdown area */
+.dropdown 
+{
+    display: block;
+}
+
+.content
+{
+
+    display: none;    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.content  a {
+
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.content a:hover
+{
+	border-radius: 10px 8px 5px; 
+	background-color: red;
+}
+
+.dropdown:hover .content
+{
+	display: block;
+}
+
+/*Header */
+
+.div1
+{
+	margin-top: 7px;
+	position: static;
+	border-radius: 8px;
+	border:2px solid #888;
+	width: 99%;
+	height: 16%
+	overflow:visible;
+}
+
+.pheader
+{
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+
+}
+.pheader:hover
+{
+	transform: scale(1,2);
+	transform: rotateX(180deg) ;
+	transform: skewX(80deg);
+}
+
+p
+{
+
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+}
+
+.div2
+{
+	margin-top: 7px;
+	width: 15%;
+	height: 60%;
+	position: absolute;
+	border-radius: 8px;
+	border:2px solid #888;
+	
+}
+
+.div3
+{
+	margin-left: 25%;
+	margin-top: 7px;
+	width: 50%;
+	height: 60%;
+	position: absolute;
+	border-radius: 8px;
+	border:2px solid #888;
+}
+.div4
+{
+	margin-left: 83%;
+	margin-top: 7px;
+	width: 15%;
+	height: 60%;
+	position: absolute;
+	border-radius: 8px;
+	border:2px solid #888;
+}
+.div5
+{
+	margin-top: 7px;
+	position: absolute;
+	border-radius: 8px;
+	border:2px solid #888;
+	width: 98%;
+	height: 16%
+	overflow:hidden;
+	bottom: 15px;
+}

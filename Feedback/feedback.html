@@ -1,0 +1,247 @@
+<html>
+<head>
+<title>Forms</title>
+<style type="text/css">
+
+	.div1
+	{
+
+		margin-top: 100px;
+		margin-left: 605px;
+		width:440px ;
+		height:210px;
+	}
+	.div2
+	{
+		margin-top: 40px; 
+		margin-left: 555px;
+		width: 530px;
+		height: 500px;
+	}
+	legend
+	{
+		text-shadow: 4px 3px 15px; 
+		text-align: center;
+		font-size: 27px;
+		color: #333;
+
+	}
+	p
+	{
+		font-size: 18px;
+	}
+	label
+	{
+		font-size: 18px;
+	}
+	fieldset
+
+	{
+		box-shadow: 7px 8px 25px; 
+		border-radius: 45px 0px 45px;
+		border: 2px solid #333;
+	}
+	
+	textarea
+	{
+
+		margin-top: 8px;
+		padding-top:4px;
+		text-indent: 59px;
+		border-radius: 45px 0px 45px;
+	}
+	p
+	{
+		margin-left: 80px;
+		font-size: 16px;
+	}
+	.signup
+	{
+		padding: 0;
+		margin-top: 0;	
+	}
+	.submitreview
+	{
+		box-shadow: 4px 3px 15px; 
+		margin-left: 160px;
+		text-indent: 10px;
+		font-size: 16px;
+		cursor: pointer;
+		width: 164px;
+		height:48px;
+		border-radius: 10px 20px 15px 20px;
+		margin-top: 0;
+	}
+
+	.submitreview:hover
+	{
+		box-shadow: 15px 8px 25px; 
+		width: 200px;
+		height: 50px;
+		transition: width 0.8s ease-in-out; 	
+		background-color: #555;
+	}
+input[type="text"]
+{
+	box-shadow: 4px 3px 15px; 
+	text-indent: 50px;
+	width: 240px;
+	height: 50px;
+	margin-left: 80px;
+}
+input[type="email"]
+{
+	box-shadow: 4px 3px 15px; 
+	text-indent: 35px;
+	width: 240px;
+	height:50px;
+	margin-left: 80px;
+}
+	input
+	{
+
+		margin-left: 50px;
+		text-indent: 10px;
+		font-size: 15px;
+		cursor: pointer;
+		border-radius: 10px 20px 15px 20px;
+		padding: 9px 22px;
+		margin-top: 13px;
+	}
+		
+		.input:hover
+	{
+		box-shadow: 15px 8px 25px; 
+	
+		height: 57px;
+		width: 240px;
+		background-color:lightgray;
+		transition: width 0.4s ease-in-out; 	
+
+	}
+	input[type="text"]:focus
+{
+	font-size: 16px;
+	width: 290px;
+	height: 57px;
+	padding: 13px 23px;
+	border-radius: 10px 20px 15px 20px;
+	letter-spacing: 2px;
+	transition: width 0.8s ease-in-out;	
+}
+input[type="email"]:focus
+{
+	font-size: 16px;
+	width: 290px;
+	height: 57px;
+	padding: 13px 23px;
+	border-radius: 10px 20px 15px 20px;
+	letter-spacing: 2px;
+	transition: width 0.8s ease-in-out;	
+}
+		.submit
+
+		{
+			box-shadow: 4px 3px 15px; 
+			width:120px;
+			height:47px;
+			margin-left: 130px;
+			border-radius: 10px 20px 15px 20px;
+			margin-top: 12px;
+}
+		.submit:hover
+	
+		{
+	
+		box-shadow: 15px 8px 25px; 
+		padding: 9px 22px;
+		color: white;
+		border-radius: 10px 20px 15px 20px;
+		width: 150px;
+		height: 50px;
+		transition: width  0.8s ease-in-out;		
+		background-color: #555;
+
+		}
+		
+</style>
+</head>
+<body>
+		<div class="div1">
+<form action="http://www.example.com/review.php" method="get">
+<fieldset>
+<legend>
+Your Details
+</legend>
+<table>
+	<tr>
+		<td>
+<input type="text" class="input" name="name" placeholder="Your Name"  required="required">
+		</td>
+	</tr>
+	<tr>
+		<td>
+				<input type="email"  class="input"  name="email"  placeholder="Enter Email Address" required="required">
+			
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="submit" class="submit" name="" >
+		</td>
+	</tr>
+</table>
+</fieldset>
+</div>
+<br />
+<div class="div2">
+<fieldset>
+<legend>
+Your Review
+</legend>
+<p>
+<label for="hear-about">
+How did you hear about us ?
+</label>
+<select name="referrer" id="hear-about">
+<option value="google">Google</option>
+<option value="friend">Friend</option>
+<option value="advert">Advert</option>
+<option value="other">Other</option>
+</select>
+</p>
+<p>
+	Would you visit again ?
+<br />
+</p>
+<label>
+<input type="radio"  name="rating" value="yes" />
+Yes
+</label>
+<label>
+<input type="radio"  name="rating" value="no" />
+No
+</label>
+<label>
+<input type="radio"  name="rating" value="maybe" />
+Maybe
+</label>
+</p>
+<p>
+<label for="comments">
+Comments :
+</label>
+<br />
+<textarea rows="4" cols="40" id="comments" placeholder="Please Enter Your comments" style="font-size:15px">
+</textarea>
+</p>
+<p class="signup">
+<input type="checkbox" name="subscribe"  />
+Sign me up for email updates
+</p>
+<input type="submit" value="Submit Review" class="submitreview">
+</fieldset>
+</form>
+</div>
+</body>
+</html>
